@@ -1,0 +1,253 @@
+body {
+    background-color: #f5f5f5;
+  }
+  
+  /* Style the header section */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+/* Style the header image */
+header img {
+    height: 50px;
+  }
+  
+  /* Style the navigation bar */
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }    
+   /* Style the section with background image */
+   #bg-section {
+    background-image: url('https://www.wandersmiles.com/wp-content/uploads/2017/10/lenin-peak-base-camp-1024x683.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 683px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+   /* Style the heading in the section */
+   #bg-section h2 {
+    font-size: 46px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  }
+  /* Style the section with centered heading and paragraph */
+  #center-section {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+
+  /* Style the heading in the centered section */
+  #center-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  /* Style the paragraph in the centered section */
+  #center-section p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  /* Style the section with heading and six images */
+  #image-section {
+    background-color: #f5f5f5;
+    padding: 50px;
+    text-align: center;
+  }
+
+  /* Style the heading in the image section */
+  #image-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  /* Style the container for the six images */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  /* Style the individual image container */
+  .image-container span {
+    display: block;
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Style the image within the container */
+  .image-container span img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: ; */
+}
+
+/* Style the caption for the images */
+.image-container span p {
+    margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+ /* Style the section with heading and six images */
+ #image1-section {
+    background-color: #f5f5f5;
+    padding: 50px;
+    text-align: center;
+  }
+
+  /* Style the heading in the image section */
+  #image1-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  /* Style the container for the six images */
+  .image1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+   /* Style the individual image container */
+   .image1-container span {
+    display: block;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Style the image within the container */
+  .image1-container span img {
+    width: 100%;
+    height: 87%;
+    /* object-fit: ; */
+}
+
+/* Style the caption for the images */
+.image1-container span p {
+    margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.destinations{
+    text-align: center;
+}
+.destinations, .packages, .about, .contact {
+	max-width: 1200px;
+	margin: 50px auto;
+	padding: 0 20px;
+}
+
+.destinations h2, .packages h2, .about h2, .contact h2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.destination-card, .package-card {
+	display: inline-block;
+	width: 300px;
+	margin: 20px;
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+.destination-card h3, .package-card h3 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.destination-card img, .package-card img {
+	display: block;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+.destination-card p, .package-card p {
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+.destination-card a, .package-card a {
+    margin-top: 20px;
+    background-color:#333 ;
+    color:#fff ;
+    padding: 10px;
+    text-decoration: none;
+	display: block;
+	text-align: center
+   
+}
+.destination-card a:hover, .package-card a:hover {
+    background-color: #555;
+    }    
+    .packages{
+        text-align: center;
+    }
+   .contact form {
+        display: flex;
+        flex-direction: column;
+        max-width: 800px;
+        margin: 0 auto;
+        }
+        .contact label {
+            margin-bottom: 10px;
+            font-weight: bold;
+            }
+            .contact input, .contact textarea {
+                padding: 10px;
+                margin-bottom: 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 16px;
+                }
+                .contact input[type="submit"] {
+                    background-color: #333;
+                    color: #fff;
+                    border: none;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    font-size: 16px;
+                    }
+                    .contact input[type="submit"]:hover {
+                        background-color: #555;
+                        }
+                        
+        
